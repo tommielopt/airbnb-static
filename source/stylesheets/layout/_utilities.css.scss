@@ -4,6 +4,25 @@
  * Feel free to change them and create your own
  * ------------------------------------- */
 
+body {
+  margin: 0;
+  font-family: Open-sans, sans-serif;
+}
+h1, h2, h3 {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+h3{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
 // Paddings
 .padded {
   padding-top: 5em;
@@ -22,4 +41,8 @@
 }
 .bg-facebook {
   background: #3b5998;
+}
+
+.wrapper-grey {
+  background: #f8f8f8;
 }

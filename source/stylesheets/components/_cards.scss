@@ -1,0 +1,49 @@
+.card-wrapper{
+  background-color: #eee;
+  padding: 100px 0px;
+}
+
+.card{
+}
+
+.card-layout{
+  position:relative;
+  padding: 0px;
+  margin: 10px 0px;
+  background-size: cover;
+  border-radius: 5px;
+  height: 250px;
+  color: #fff;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+  text-align: left;
+}
+
+.card-profile{
+  position:absolute;
+  right:10px;
+  top:10px;
+  border-radius: 50%;
+  width:50px;
+}
+
+.card-top{
+  position:absolute;
+  left:10px;
+  top:10px;
+}
+
+.card-top h3{
+  margin-top:0px;
+}
+
+
+
+.card-bottom{
+  position:absolute;
+  left:10px;
+  bottom:10px;
+}
+
+.card-bottom p{
+  margin-bottom:0px;
+}

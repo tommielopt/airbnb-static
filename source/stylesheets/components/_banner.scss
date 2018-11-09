@@ -1,0 +1,36 @@
+/* Banner design */
+.banner-wrapper{
+  height:100vh;
+  background-image: linear-gradient(to bottom, rgba(10,47,70,0.6) 50%,rgba(125,185,232,0.1) 100%), url("../../images/background.jpg");
+  background-size: cover;
+  color: #fff;
+}
+.banner-layout{
+  height:100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.banner-info{
+}
+
+.banner-info h1{
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.banner-info h2{
+  font-size: 25px;
+  font-weight: 100;
+  margin-bottom:100px;
+}
+
+.banner-info a{
+  padding: 15px 30px;
+  background-color: #25f;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 20px;
+}
+
